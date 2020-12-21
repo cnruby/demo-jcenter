@@ -34,7 +34,7 @@ Maven:
 Gradle:
 
 ```groovy
-implementation 'de.iotoi:demo-jcenter:0.1.0'
+implementation 'de.iotoi:demo-jcenter:0.1.3'
 ```
 
 ##### Snapshots
