@@ -7,8 +7,6 @@
 
 ### About
 
-
-
 Features:
 * Feature 1
 * Feature 2
@@ -27,14 +25,14 @@ Maven:
 <dependency>
   <groupId>de.iotoi</groupId>
   <artifactId>demo-jcenter</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.12</version>
 </dependency>
 ```
 
 Gradle:
 
 ```groovy
-implementation 'de.iotoi:demo-jcenter:0.1.3'
+implementation 'de.iotoi:demo-jcenter:0.1.12'
 ```
 
 ##### Snapshots
