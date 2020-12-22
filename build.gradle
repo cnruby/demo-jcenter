@@ -46,7 +46,7 @@ bintray{
     publish = true // !!!
     pkg{
         repo = 'gradle_java_jcenter'
-        name = "project.name"
+        name = project.name
         desc = project.description
         licenses = ['Apache-2.0']
         vcsUrl = 'https://github.com/cnruby/demo-jcenter'
@@ -86,4 +86,6 @@ publishing{
 
 
 
+println              bintray.user
+println              bintray.key
 println              archivesBaseName
