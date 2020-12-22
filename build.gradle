@@ -46,21 +46,21 @@ bintray{
     publish = true // !!!
     pkg{
         repo = 'gradle_java_jcenter'
-        name = project.name
+        name = "project.name"
         desc = project.description
         licenses = ['Apache-2.0']
         vcsUrl = 'https://github.com/cnruby/demo-jcenter'
-        labels = ['java demo jcenter library']
+        labels = ['java, demo, jcenter, library, gradle, bintray']
         // publicDownloadNumbers = true
         version {
             name = project.version
             released = new Date()
 
             // create the files *.asc in the jcenter
-            gpg {
-                sign = true
-                passphrase = System.getenv('gpgPassphrase')
-            }
+            // gpg {
+            //     sign = true
+            //     passphrase = System.getenv('gpgPassphrase')
+            // }
 
             // mavenCentralSync {
             //     sync = false
@@ -78,12 +78,12 @@ publishing{
             groupId group
             artifactId archivesBaseName
             version version
-            artifact javadocJar
-            artifact sourcesJar
+            // artifact javadocJar
+            // artifact sourcesJar
         }
     }
 }
 
 
 
-println version
+println              archivesBaseName
